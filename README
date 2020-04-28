@@ -1,5 +1,14 @@
-add below to solve maven errors
-		<maven-jar-plugin.version>2.6</maven-jar-plugin.version>
+git init 
+git remote add origin https://github.com/nehat0808/SpringBoot-GraphQL.git
+git add .
+git commit -m "first commit"
+git push origin 
 
-Add do following to solve "m2e-wtp-error-path-target-m2e-wtp-web-resources-meta-inf-manifest-mf-no-such" error
-		Preferences > Maven > Java EE Integration and uncheck "Maven Archiver generates files under the build directory".
+// To reset origin
+git remote set-url origin git@github.com:nehat0808/springboot-rest.git
+
+
+//For below error use https not ssh
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+git remote set-url origin  https://github.com/nehat0808/springboot-rest.git  -- this works for windows
