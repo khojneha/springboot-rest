@@ -1,0 +1,5 @@
+add below to solve maven errors
+		<maven-jar-plugin.version>2.6</maven-jar-plugin.version>
+
+Add do following to solve "m2e-wtp-error-path-target-m2e-wtp-web-resources-meta-inf-manifest-mf-no-such" error
+		Preferences > Maven > Java EE Integration and uncheck "Maven Archiver generates files under the build directory".
